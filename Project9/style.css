@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 100vh; 
+}
+
+.main {
+    height: 25vh;
+    width: 100%;
+    background-color: pink;
+    color: white;
+    /* font-weight: 700; */
+    font-size: 1.2rem;
+}
+h1 {
+   padding: 10px ;
+}
+
+.top-main {
+    
+    display: flex;
+}
+
+.img {
+    margin-top: -100px;
+    height: 300px;
+   width: 200px;
+}
+
+.background-color {
+    height: 75vh; 
+    background-color: #e6f6ff;
+    /* margin: -20px; */
+    padding: 10px;
+}
+
+.img-player {
+    background-image: url("./IMG_20240430_111830__1_-removebg-preview.png");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: -0%;
+}
+
+/* .margin {
+    margin: 40px 0 20px 20px;
+} */
+
+.head {
+    display: flex;
+    border-radius: 5px;  
+   
+}
+.Main-head { 
+    margin: 0  20px 0 20px;
+    background-color: white;
+    border-radius: 25px;
+}
+/* .IPL-margin {
+    margin:0 0 0 10px;
+} */
+
+
+
+/* .body-margin {
+    margin:10px
+} */
+
+h4 {
+    margin: 10px 0 15px 20px;
+    font-size: 1.3rem;
+}
+
+.raw {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.raw1,p {
+    text-align: center;
+}
+
+.raw1,img {
+    border-radius:20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding:10px;
+    font-size: 1.3rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+   
+}

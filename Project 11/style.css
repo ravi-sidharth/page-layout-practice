@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container{
+    max-width: 1200px;
+}
+
+
+.container {
+    height: 100vh;
+}
+
+.image {
+    width: 100%; 
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/newspaper-front-page-design-poster-with-world-breaking-news-headlines-dark-wood-background-realistic_1284-20216.jpg?t=st=1714842190~exp=1714845790~hmac=421b7aaf845beae9c42890249c98772956c30e97cf3bedf71c2cb886c3626a0b&w=900");
+    background-size: cover;
+    background-position: -0%;
+    display: flex;
+    align-items: self-end;
+    /* border: 1px solid black; */
+    /* background-color: black; */
+
+}
+
+.footer {
+    /* padding-top:48%; */
+    
+    width: 100%;
+    height: 25vh;
+    color:black;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+   
+}
+
+h4,h2,p,button {
+    /* margin-top: 7px; */
+    margin: 10px;
+}
+
+button {
+    background-color: black;
+    color:white;
+    padding:10px 15px 10px 15px;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 426px){
+    .image{
+        width: 500px;
+    }
+}

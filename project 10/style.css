@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 1050px;
+    width: 1000px;
+    border: 2px solid black;
+    /* padding: 0 40px 0 40px; */
+    font: arial;
+}
+
+
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 30px 0;
+   
+}
+
+p {
+    margin: 60px 0 30px 0;
+    color:#323f4b ;
+}
+
+footer {
+    height:700px;
+    /* width:100%; */
+    background-image: url("https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?t=st=1714834222~exp=1714837822~hmac=7a9fcfc03d0a0f183d905e5625b3669d554a844ed6b59307dfc8e5a093cd477a&w=1380");
+    background-size: cover;
+    position:-0%;
+    padding-top:58%;
+}
+
+
+.image{
+    background-color:#ffffff;
+    border-radius: 15px 15px 0 0;
+}
+ 
+   
+
+
+h2 {
+       color: #5752ab;
+       padding: 10px;
+}
+
+button{
+    color: #171f46;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    margin-left: 10px;
+    
+
+}
+
+
+.image,p {
+    padding: 10px;
+}
+
+.property {
+    margin: 0;
+}
+

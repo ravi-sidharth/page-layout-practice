@@ -1,0 +1,42 @@
+img {
+    display:block;
+    max-width: 100%;
+}
+
+
+/* 1 rem = 16px 
+   62.5% = 10px */
+
+
+   /*  Understanding Units 
+   -- px
+   -- %
+   -- vw,vh  (vw-viewport width, vh-viewport height)
+   -- vmax, vmin
+   -- em, rem
+   */
+
+   /* Layout of website 
+   -- absolute vs flex? */
+
+   /*  flexbox
+   
+   -- Display flex
+   -- aligning items
+   -- flex direction
+   -- flex wrap
+   */
+
+   /*  @media 
+   -- max-width
+   -- min-width */
+
+
+/*  Key points to keep in mind to make website responsive
+
+1. CSS Flexbox
+2. CSS Units
+3. Responsive Typography
+4. Mobile-First-Approach
+5. Flexible Images and Media*/
+
